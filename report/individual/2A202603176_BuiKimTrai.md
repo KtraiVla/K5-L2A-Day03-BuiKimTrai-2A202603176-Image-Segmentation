@@ -21,7 +21,7 @@ Bảng dưới ghi các ZIP đã xuất từ CVAT và chuẩn bị trong `submis
 | cp3_thin | cp3_thin.zip | 1 / 1 | 3 |
 | cp4_curb | cp4_curb.zip | 1 / 1 | 3 |
 | cp6_coverage | cp6_coverage.zip | 1 / 1 | 3 |
-| **Tổng tối đa** | **9 ZIP; 14 ảnh** | | **100** |
+| **Tổng tối đa** | **9 ZIP; 14 ảnh** | |  |
 
 Semantic xuất Segmentation mask 1.1; instance và panoptic xuất COCO 1.0. Cả 9 ZIP được tạo bằng bộ xuất của CVAT, không sửa JSON/PNG trong ZIP sau khi xuất. Bộ kiểm tra cấu trúc của repo báo không thiếu task và không có lỗi cấu trúc; Hard có nhắc kiểm trực quan độ phủ/chồng lấn. Chưa dùng ground truth hoặc có điểm so reference; không tự ghi PASS, bonus hay điểm chính thức.
 
